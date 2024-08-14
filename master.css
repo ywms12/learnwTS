@@ -1,0 +1,813 @@
+* {
+  font-family: sans-serif;
+}
+
+@media screen and (min-width: 1000px) {
+  .n1 {
+    width: 100%;
+    height: 60px;
+    opacity: 1;
+    border-bottom: 0.5px solid black;
+    position: relative;
+  }
+  .n1 .fh2 {
+    position: absolute;
+    left: 5%;
+    font-weight: bold;
+  }
+  .n1 .u1s {
+    display: none;
+  }
+  .n1 #showL, .n1 #hideL {
+    display: none;
+  }
+  .n1 .u1 {
+    list-style: none;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    display: inline-flex;
+  }
+  .n1 .u1 .u1l {
+    margin-right: 10px;
+  }
+  .n1 .btn {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+  }
+  .d1 {
+    width: 100%;
+    height: 400px;
+    opacity: 1;
+    position: relative;
+  }
+  .d1 .cont1 {
+    width: 80%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    left: 10%;
+  }
+  .d1 .cont1 .d11 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    opacity: 1;
+  }
+  .d1 .cont1 .d11 .fh1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .d1 .cont1 .d11 .p1 {
+    font-size: 30px;
+  }
+  .d1 .cont1 .d11 .btn {
+    position: absolute;
+    left: 30%;
+  }
+  .d1 .cont1 .d12 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    opacity: 1;
+  }
+  .d1 .cont1 .d12 .im1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .d2, .d4 {
+    width: 100%;
+    height: 35px;
+    opacity: 1;
+    position: relative;
+  }
+  .d2 .cont2, .d2 .cont4, .d4 .cont2, .d4 .cont4 {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+    opacity: 1;
+  }
+  .pp1 {
+    width: 80%;
+    height: 350px;
+    opacity: 1;
+    position: relative;
+    left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+  }
+  .pp1 .item {
+    opacity: 1;
+    border: 1px solid white;
+    width: 33%;
+    height: 48%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px;
+  }
+  .pp1 .item .im2 {
+    width: 48%;
+    height: 70%;
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    border-radius: 15px;
+  }
+  .pp1 .item .itemm {
+    position: absolute;
+    right: 1%;
+    top: 25%;
+    opacity: 1;
+    height: 50%;
+    width: 44%;
+  }
+  .pp1 .item .itemm .fh5 {
+    font-size: 25px;
+  }
+  .pp1 .item1 {
+    position: absolute;
+    left: 0%;
+  }
+  .pp1 .item2 {
+    position: absolute;
+    left: 33.46%;
+  }
+  .pp1 .item3 {
+    position: absolute;
+    right: 0%;
+  }
+  .pp1 .item4 {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+  }
+  .pp1 .item5 {
+    position: absolute;
+    left: 33.46%;
+    bottom: 0%;
+  }
+  .pp1 .item6 {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+  }
+  .d3 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    opacity: 1;
+  }
+  .d3 .cont3 {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    opacity: 1;
+  }
+  .d3 .cont3 .cont31, .d3 .cont3 .cont32 {
+    width: 50%;
+    height: 100%;
+    opacity: 1;
+  }
+  .d3 .cont3 .cont31 {
+    position: absolute;
+    left: 0%;
+  }
+  .d3 .cont3 .cont31 .im3 {
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .d3 .cont3 .cont32 {
+    position: absolute;
+    right: 0%;
+  }
+  .d3 .cont3 .cont32 .sh4 {
+    font-size: 35px;
+  }
+  .d3 .cont3 .cont32 .p2 {
+    font-size: 20px;
+  }
+  .d3 .cont3 .cont32 .sh5 {
+    font-size: 30px;
+  }
+  .d3 .cont3 .cont32 .hr1 {
+    width: 70%;
+    height: 10px;
+    background-color: blue;
+  }
+  .d3 .cont3 .cont32 .hr2 {
+    width: 60%;
+    height: 10px;
+    background-color: green;
+  }
+  .pp2 {
+    width: 80%;
+    height: 350px;
+    opacity: 1;
+    position: relative;
+    left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+  }
+  .pp2 .ittem {
+    opacity: 1;
+    border: 1px solid white;
+    width: 49%;
+    height: 48%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px;
+  }
+  .pp2 .ittem .im4 {
+    width: 48%;
+    height: 80%;
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    border-radius: 15px;
+  }
+  .pp2 .ittem .ittemm {
+    position: absolute;
+    right: 1%;
+    opacity: 1;
+    height: 100%;
+    width: 44%;
+  }
+  .pp2 .ittem .ittemm .sp1 {
+    color: red;
+  }
+  .pp2 .ittem .ittemm .it {
+    width: 100%;
+    height: 18%;
+    opacity: 1;
+    position: relative;
+  }
+  .pp2 .ittem .ittemm .it .im5 {
+    width: 30px;
+    height: 30px;
+  }
+  .pp2 .ittem .ittemm .it .p4 {
+    position: absolute;
+    left: 15%;
+    top: 0%;
+  }
+  .pp2 .ittem .ittemm .it2 {
+    width: 100%;
+    height: 18%;
+    opacity: 1;
+    position: relative;
+  }
+  .pp2 .ittem .ittemm .it2 .im5 {
+    width: 30px;
+    height: 30px;
+  }
+  .pp2 .ittem .ittemm .it2 .p4 {
+    position: absolute;
+    left: 15%;
+    top: 0%;
+  }
+  .pp2 .ittem1 {
+    position: absolute;
+    left: 0%;
+  }
+  .pp2 .ittem2 {
+    position: absolute;
+    right: 0%;
+  }
+  .pp2 .ittem3 {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+  }
+  .pp2 .ittem4 {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+  }
+  .onS {
+    display: none;
+  }
+  .d5 {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(237, 229, 229);
+    position: relative;
+  }
+  .d5 .cont5 {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    opacity: 1;
+  }
+  .d5 .cont5 .btn {
+    position: absolute;
+    top: 0%;
+    right: 15%;
+  }
+  .d6 {
+    width: 100%;
+    height: 180px;
+    opacity: 1;
+    position: relative;
+  }
+  .d6 .cont6 {
+    width: 80%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    left: 10%;
+  }
+  .d6 .cont6 .cont61 {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    opacity: 1;
+  }
+  .d6 .cont6 .cont61 .co {
+    width: 36%;
+    height: 50px;
+    opacity: 1;
+    position: absolute;
+    bottom: 2%;
+    left: 32%;
+  }
+  .d6 .cont6 .cont61 .co .im6 {
+    width: 50px;
+    height: 50px;
+  }
+  .d6 .cont6 .cont61 .co .im61 {
+    position: absolute;
+    left: 0%;
+  }
+  .d6 .cont6 .cont61 .co .im62 {
+    position: absolute;
+    left: 40%;
+  }
+  .d6 .cont6 .cont61 .co .im63 {
+    position: absolute;
+    right: 0%;
+  }
+  .d6 .cont6 .cont62 {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0%;
+    opacity: 1;
+  }
+  .d6 .cont6 .cont62 .sevh4 {
+    position: absolute;
+    left: 40%;
+  }
+  .d6 .cont6 .cont62 .u2 {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    list-style: none;
+  }
+  .d6 .cont6 .cont62 .u22, .d6 .cont6 .cont62 .u23 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .n1 {
+    width: 100%;
+    height: 80px;
+    opacity: 1;
+    border-bottom: 0.5px solid black;
+    position: relative;
+  }
+  .n1 .fh2 {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .n1 .u1 {
+    display: none;
+  }
+  .n1 .b1 {
+    position: absolute;
+    left: 48%;
+    top: 10%;
+    font-size: 32px;
+    z-index: 2000;
+  }
+  .n1 .uu1s {
+    width: 20%;
+    height: 300%;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    background-color: bisque;
+    border-radius: 15px;
+    display: none;
+  }
+  .n1 .uu1s .u1s {
+    list-style: none;
+  }
+  .n1 .uu1s .u1s .u1l {
+    margin-right: 10px;
+    font-size: 32px;
+  }
+  .n1 .uu1s .u1s .u1l .b2 {
+    font-size: 32px;
+    z-index: 2000;
+    position: absolute;
+    bottom: 2%;
+  }
+  .n1 .b3 {
+    font-size: 32px;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+  }
+  .d1 {
+    width: 100%;
+    height: 900px;
+    opacity: 1;
+    position: relative;
+  }
+  .d1 .cont1 {
+    width: 80%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    left: 10%;
+  }
+  .d1 .cont1 .d11 {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: 1;
+  }
+  .d1 .cont1 .d11 .fh1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .d1 .cont1 .d11 .p1 {
+    font-size: 32px;
+  }
+  .d1 .cont1 .d11 .btn {
+    position: absolute;
+    left: 30%;
+    font-size: 32px;
+  }
+  .d1 .cont1 .d12 {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    opacity: 1;
+  }
+  .d1 .cont1 .d12 .im1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .d2, .d4 {
+    width: 100%;
+    height: 40px;
+    opacity: 1;
+    position: relative;
+  }
+  .d2 .cont2, .d2 .cont4, .d4 .cont2, .d4 .cont4 {
+    width: 44%;
+    height: 100%;
+    position: absolute;
+    left: 27%;
+    opacity: 1;
+  }
+  .d2 .cont2 .fh4, .d2 .cont2 .th4, .d2 .cont4 .fh4, .d2 .cont4 .th4, .d4 .cont2 .fh4, .d4 .cont2 .th4, .d4 .cont4 .fh4, .d4 .cont4 .th4 {
+    font-size: 35px;
+  }
+  .pp1 {
+    width: 80%;
+    height: 600px;
+    opacity: 1;
+    position: relative;
+    left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+  }
+  .pp1 .item {
+    opacity: 1;
+    border: 1px solid white;
+    width: 49%;
+    height: 31%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px;
+  }
+  .pp1 .item .im2 {
+    width: 48%;
+    height: 70%;
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    border-radius: 15px;
+  }
+  .pp1 .item .itemm {
+    position: absolute;
+    right: 1%;
+    top: 25%;
+    opacity: 1;
+    height: 50%;
+    width: 44%;
+  }
+  .pp1 .item .itemm .fh5 {
+    font-size: 32px;
+  }
+  .pp1 .item1 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+  .pp1 .item2 {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+  }
+  .pp1 .item3 {
+    position: absolute;
+    left: 0%;
+    top: 34.5%;
+  }
+  .pp1 .item4 {
+    position: absolute;
+    right: 0%;
+    top: 34.5%;
+  }
+  .pp1 .item5 {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+  }
+  .pp1 .item6 {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+  }
+  .d3 {
+    width: 100%;
+    height: 850px;
+    position: relative;
+    opacity: 1;
+  }
+  .d3 .cont3 {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    opacity: 1;
+  }
+  .d3 .cont3 .cont31, .d3 .cont3 .cont32 {
+    height: 50%;
+    width: 100%;
+    opacity: 1;
+  }
+  .d3 .cont3 .cont31 {
+    position: absolute;
+    top: 0%;
+  }
+  .d3 .cont3 .cont31 .im3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .d3 .cont3 .cont32 {
+    position: absolute;
+    bottom: 0%;
+  }
+  .d3 .cont3 .cont32 .sh4 {
+    font-size: 36px;
+  }
+  .d3 .cont3 .cont32 .p2 {
+    font-size: 32px;
+  }
+  .d3 .cont3 .cont32 .sh5 {
+    font-size: 34px;
+  }
+  .d3 .cont3 .cont32 .hr1 {
+    width: 70%;
+    height: 15px;
+    background-color: blue;
+  }
+  .d3 .cont3 .cont32 .hr2 {
+    width: 60%;
+    height: 15px;
+    background-color: green;
+  }
+  .br1 {
+    display: none;
+  }
+  .pp2 {
+    width: 80%;
+    height: 1400px;
+    opacity: 1;
+    position: relative;
+    left: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+  }
+  .pp2 .ittem {
+    opacity: 1;
+    border: 1px solid white;
+    width: 100%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px;
+  }
+  .pp2 .ittem .im4 {
+    width: 48%;
+    height: 80%;
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    border-radius: 15px;
+  }
+  .pp2 .ittem .ittemm {
+    position: absolute;
+    right: 1%;
+    opacity: 1;
+    height: 100%;
+    width: 44%;
+  }
+  .pp2 .ittem .ittemm .p3 {
+    font-size: 32px;
+  }
+  .pp2 .ittem .ittemm .p3 .sp1 {
+    color: red;
+  }
+  .pp2 .ittem .ittemm .it {
+    width: 100%;
+    height: 18%;
+    opacity: 1;
+    position: relative;
+  }
+  .pp2 .ittem .ittemm .it .im5 {
+    width: 30px;
+    height: 30px;
+  }
+  .pp2 .ittem .ittemm .it .p4 {
+    position: absolute;
+    left: 15%;
+    top: 0%;
+    font-size: 32px;
+  }
+  .pp2 .ittem .ittemm .it2 {
+    width: 100%;
+    height: 18%;
+    opacity: 1;
+    position: relative;
+  }
+  .pp2 .ittem .ittemm .it2 .im5 {
+    width: 30px;
+    height: 30px;
+  }
+  .pp2 .ittem .ittemm .it2 .p4 {
+    position: absolute;
+    left: 15%;
+    top: 0%;
+    font-size: 32px;
+  }
+  .pp2 .ittem1 {
+    position: absolute;
+    top: 0%;
+  }
+  .pp2 .ittem2 {
+    position: absolute;
+    top: 27%;
+  }
+  .pp2 .ittem3 {
+    position: absolute;
+    top: 54%;
+  }
+  .pp2 .ittem4 {
+    position: absolute;
+    top: 81%;
+  }
+  .d5 {
+    width: 100%;
+    height: 160px;
+    background-color: rgb(237, 229, 229);
+    position: relative;
+  }
+  .d5 .cont5 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 25%;
+    opacity: 1;
+  }
+  .d5 .cont5 .fih4 {
+    font-size: 32px;
+  }
+  .d5 .cont5 .btn {
+    position: absolute;
+    bottom: 5%;
+    right: 30%;
+    font-size: 32px;
+  }
+  .d6 {
+    width: 100%;
+    height: 650px;
+    opacity: 1;
+    position: relative;
+  }
+  .d6 .cont6 {
+    width: 80%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    left: 10%;
+  }
+  .d6 .cont6 .cont61 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0%;
+    opacity: 1;
+  }
+  .d6 .cont6 .cont61 .seh4 {
+    font-size: 35px;
+  }
+  .d6 .cont6 .cont61 .p5 {
+    font-size: 32px;
+  }
+  .d6 .cont6 .cont61 .co {
+    width: 36%;
+    height: 50px;
+    opacity: 1;
+    position: absolute;
+    bottom: 2%;
+    left: 32%;
+  }
+  .d6 .cont6 .cont61 .co .im6 {
+    width: 50px;
+    height: 50px;
+  }
+  .d6 .cont6 .cont61 .co .im61 {
+    position: absolute;
+    left: 0%;
+  }
+  .d6 .cont6 .cont61 .co .im62 {
+    position: absolute;
+    left: 40%;
+  }
+  .d6 .cont6 .cont61 .co .im63 {
+    position: absolute;
+    right: 0%;
+  }
+  .d6 .cont6 .cont62 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0%;
+    opacity: 1;
+  }
+  .d6 .cont6 .cont62 .sevh4 {
+    position: absolute;
+    left: 40%;
+    font-size: 35px;
+  }
+  .d6 .cont6 .cont62 .u2 {
+    display: none;
+  }
+  .d6 .cont6 .cont62 .u22 {
+    position: absolute;
+    left: 15%;
+    top: 28%;
+    list-style: none;
+  }
+  .d6 .cont6 .cont62 .u22 li {
+    font-size: 32px;
+  }
+  .d6 .cont6 .cont62 .u23 {
+    position: absolute;
+    right: 25%;
+    top: 28%;
+    list-style: none;
+  }
+  .d6 .cont6 .cont62 .u23 li {
+    font-size: 32px;
+  }
+}/*# sourceMappingURL=master.css.map */
